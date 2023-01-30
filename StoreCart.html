@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="CSS\MeatProducts.css" />
+    <script src="Javascript\MeatProducts.js" async></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Store Cart</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="Heading">D&H Farmers Market</h1>
+
+        <!--Navbar start-->
+    
+        <div class="nav">
+          <nav id="nav-bar">
+            <ul>
+              <li id="Home"> <a class="nav-link" href="LandingPage.html">Home</a></li>
+              <li id="Product-Menu"><a class="nav-link" href="Products.html"></a></li>
+
+              <ul class="sub-nav">
+              <li><a class="productNav" href="MeatProducts.html">Meat</a></li>
+              <li><a class="productNav" href="DairyProducts.html">Dairy</a></li>
+              <li><a class="productNav" href="VeggieProducts.html">Veggies</a></li>
+              <li><a class="productNav" href="FruitProducts.html">Fruit</a></li>
+            </ul>
+
+              <li id="Contact"><a class="nav-link" href="#contact-message">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+    
+        <!--Navbar end-->
+
+    </header>
+
+<!--This is the container for the promotional coupon. The customer will enter their email and receive a 15% discount on their shopping cart.-->        
+    <div class="container-coupon-promo">
+      <h3 class="coupon-heading">D&H Farmers Market</h4>
+      <h2 class="coupon-discount-amount">15% off</h6>
+      <h3 class="coupon-expire-date"></h3>
+      <p class="extra-info">Enter your email here and get a free discount coupon</p>
+    <label for="email"></label>
+      <input type="text" id="email" name="email" placeholder="Enter your email:" style="text-align: center">
+  <button type="button" class="coupon-submit-btn" onclick="couponDiscount()">Get my 15% off</button>
+  </div>
+
+
+<!--Container that displays the input value of the products-->
+    <div class="product-container">
+        <div class="product-header">
+            <h5 class="product-title">PRODUCT</h5>
+            <h5 class="product-price">PRICE</h5>
+            <h5 class="product-quantity">QUANTITY</h5>
+            <h5 class="total">TOTAL Excl</h5>
+        </div>
+        <div class="products">
+            
+        </div>
+    </div>
+   
+    
+</body>
+</html>

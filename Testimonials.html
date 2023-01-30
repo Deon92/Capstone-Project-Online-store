@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="CSS\TestimonialStyle.css" />
+    <script src="Javascript\LandingPage.js" async></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Testimonials</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="Heading">D&H Farmers Market</h1>
+
+        <!--Navbar start-->
+
+        <div class="nav">
+            <nav id="nav-bar">
+                <ul>
+                    <li> <a class="nav-link" href="LandingPage.html">Home</a></li>
+                    <li> <a class="nav-link" href="About.html">About</a></li>
+                    <li><a class="nav-link" href="Products.html">Products</a></li>
+                    <li><a class="nav-link" href="#contact-message">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!--Navbar end-->
+
+    </header>
+
+    <!--Background start-->
+
+    <section id="Background">
+        
+        <!--This container creates the review section. Customers can read what previous customers had to say.-->
+        <div class="newContainer">
+            <div class="newHeader">
+                <h1 class="reviewHead">Reviews</h1>
+            </div>
+
+            <div id="slider">
+                <ul class="slides">
+                    <li class="slide">
+                        <h4 class="reviewHead1">Johan Mare</h4>
+                        <p class="reviewPar1">For a long time I have struggled with my digestive system and stomach cramps. Since I have made the
+                            move to D&H Farmers Market my life have changed.</p>
+                        </li>
+
+                    <li class="slide">
+                        <h4 class="reviewHead2">Riaan Prinsloo</h4>
+                        <p class="reviewPar2">The highest quality products at the lowest prices. I buy directly from the producer.</p>
+                    </li>
+
+                    <li class="slide">
+                        <h4 class="reviewHead3">Haylee Richards</h4>
+                        <p class="reviewPar3">I have always struggled with my weight, but since I have made the decision to start buying from D&H
+                            Farmers Market I have been in control of my weight.</p>
+                    </li>
+
+                    <li class="slide">
+                        <h4 class="reviewHead4">Thando Mgwenya</h4>
+                        <p class="reviewPar4">If you are looking for quality products give D&H Farmers a try. All of their products are manufactured locally 
+                            and sold at very good prices.
+                        </p>
+                    </li>
+                
+                </ul>
+            </div>
+        </div>
+
+        <!--The comment section is created in a container. I have made use of forms to collect user inputs.-->
+        <div class="CommentSection">
+
+            <div class="container text-center pb-3">
+                <h1 class="text-center">Leave your comments here:</h1>
+            </div>
+            <form>
+
+                <div class="form-group row rounded">
+                    <label id="name-label" for="name" class="col-sm-3 col-form-label">Name</label><br>
+                    <div class="col-sm-7">
+                        <input type="text" id="name" name="name" class="form-control border border-dark"
+                            placeholder="Enter your name"><br>
+                    </div>
+                </div>
+                <div class="form-group-lname row">
+                    <label id="lname-label" for="lname" class="col-sm-3 col-form-label">Surname</label><br>
+                    <div class="col-sm-7">
+                        <input type="text" id="lname" name="lname" class="form-control border border-dark"
+                            placeholder="Enter your lastname"><br>
+                    </div>
+                </div>
+                <div class="form-group-email row">
+                    <label id="email-label" for="email" class="col-sm-3 col-form-label">Email address</label><br>
+                    <div class="col-sm-7">
+                        <input type="email" id="email" name="email" class="form-control border border-dark"
+                            placeholder="Enter your email"><br>
+                    </div>
+                </div>
+
+                <section id="comment">
+                    <textarea rows="9" cols="90" name="comment">Enter Your comments here!</textarea>
+                </section>
+                <div class="form-group">
+
+                    <button type="submit" id="submit" class="submit-button" onclick="myFunction()">Submit</button>
+                </div>
+
+            </form>
+        </div>
+
+        <!--Footer start-->
+        <!--In the footer section I have added links to social media applications.-->
+        <section id="Footer-Section">
+            <div class="footer">
+            <h2 id="contact-message">Can't wait to hear from you</h2>
+        </div>
+            <div class="contact-links">
+                <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+                <a href="mailto:deonholl@ymail.com" class="fa fa-yahoo">
+                </a>
+                <a href="tel:0824035225" class="fa fa-phone"></a>
+            </div>
+
+        <!--Footer end-->
+
+    </section>
+
+    <!--Background end-->
+
+</body>
+
+</html>

@@ -1,0 +1,186 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="CSS\MeatProducts.css" />
+  <script src="Javascript\MeatProducts.js" async></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Meat Products</title>
+</head>
+
+<body>
+  <header>
+    <h1 id="Heading">D&H Farmers Market</h1>
+
+    <!--Navbar start-->
+
+    <div class="nav">
+      <nav id="nav-bar">
+        <ul>
+          <li id="Home"> <a class="nav-link" href="LandingPage.html">Home</a></li>
+          <li id="Product-Menu"><a class="nav-link" href="Products.html"></a></li>
+           
+          <ul class="sub-nav">
+              <li><a class="productNav" href="MeatProducts.html">Meat</a></li>
+              <li><a class="productNav" href="DairyProducts.html">Dairy</a></li>
+              <li><a class="productNav" href="VeggieProducts.html">Veggies</a></li>
+              <li><a class="productNav" href="FruitProducts.html">Fruit</a></li>
+            </ul>
+
+          <li id="Contact"><a class="nav-link" href="#contact-message">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!--Navbar end-->
+
+  </header>
+
+<!--Background image for page-->
+
+  <section id="Table-Picture">
+    <img id="Food-Table"
+      src="https://media.istockphoto.com/photos/variety-of-raw-black-angus-prime-meat-steaks-picture-id923692030?k=20&m=923692030&s=612x612&w=0&h=k-b2wtmHwBbpmSM74dN0gZzRD9oEwBUYiXdlWYD6mHY="
+      style="width:1200px;height: 400px;" alt="Food Table" class="center">
+  </section>
+
+  <!--About the product section-->
+
+  <div id="About-Meat">
+    <h3 id="About-Meat-Heading">ABOUT OUR MEAT PRODUCTS</h3>
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque voluptate consequuntur quod vero tenetur, quidem
+      esse laborum rerum deserunt molestias a, nemo veniam ad quo? Quidem iusto placeat ad eligendi.
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, eveniet. Quidem aliquid sit veniam voluptatum
+      sapiente rerum ab sequi! Hic ex iure deserunt adipisci a, ab aliquam delectus odio minima?
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore doloremque corporis, placeat provident
+      possimus optio eveniet quod adipisci! Aut tempore id fugiat quisquam ex quos expedita provident veritatis!
+      Voluptate, nobis!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Non expedita, dolorum eveniet ratione nesciunt recusandae
+      in consequatur ut sed! Laboriosam itaque voluptate dolores excepturi quaerat pariatur aspernatur vel dolore
+      molestias.
+    </p>
+
+  </div>
+
+  <!--Background start-->
+
+  <section id="Background">
+
+  <!--Product section 1 start-->
+
+    <!--This section creates the heading of the product, adds an image of the product and adds other essential details of the product.
+        At the bottom of the article, I have added a button that adds the product to the cart.-->
+    <section id="First-Product-Section">
+
+      <article id="Ribeye-Art">
+        <span class="Heading-of-item">RIBEYE</span>
+        <img src="Images\Meat\Ribeye.jfif" class="Image-of-item" alt="Ribeye" style="width:230px;height: 200px;">
+        <p id="Ribeye-Paragraph">This is a boneless steak that is rich, tender and full-flavored, with marbling
+          throughout. <span class="price-of-item">139.99 rand p/kg</span></p> 
+  
+          <button class="btn btn-primary Add-to-cart-button" type="button">Add to cart</button>
+      </article>
+
+      <article id="Ribs-Art">
+        <span class="Heading-of-item">BACK RIBS</span>
+        <img src="Images\Meat\Ribs.jfif" class="Image-of-item" alt="Ribs" style="width:230px;height: 200px;">
+        <p id="Ribs-Paragraph">Our rack of ribs typically has between 10 to 13 bones. They are juicy and flavorful.
+          "Also comes in basting". <span class="Price-of-item">199.99 rand p/kg</span></p>
+          
+          <button class="btn btn-primary Add-to-cart-button" type="button">Add to cart</button>
+      </article>
+
+      <article id="T-Bone-Art">
+        <span class="Heading-of-item">T-BONE</span>
+        <img src="Images\Meat\T-Bone.jfif" class="Image-of-item" alt="T-Bone" style="width:220px;height: 200px;">
+        <p id="T-Bone-Paragraph">The T-Bone steaks are well-marbled, and the cut consists of two lean, tender steaks -
+          the <b>strip</b> and <b>tenderloin</b>.  <span class="Price-of-item">129.99 rand p/kg</span></p>
+          
+          <button class="btn btn-primary Add-to-cart-button" type="button">Add to cart</button>
+      </article>
+
+      <article id="Porterhouse-Art">
+        <span class="Heading-of-item">PORTERHOUSE</span>
+        <img src="Images\Meat\Porterhouse.jfif" class="Image-of-item" alt="Porterhouse" style="width:230px;height: 200px;">
+        <p id="Porterhouse-Paragraph">The cut of the Porterhouse steak are from the rear end of the short loin and
+          include a large part of tenderloin steak. <span class="Price-of-item">165.99 rand p/kg</span></p>
+          
+          <button class="btn btn-primary Add-to-cart-button" type="button">Add to cart</button>
+      </article>
+    </section>
+
+    <!--Product section 1 end-->
+
+    <!--Product section 2 start-->
+
+      <!--This section creates the heading of the product, adds an image of the product and adds other essential details of the product.
+        At the bottom of the article, I have added a button that adds the product to the cart.-->
+    <section id="Second-Product-Section">
+
+      <article id="Filet-Art">
+        <span class="Heading-of-item">FILET MIGNON</span>
+        <img src="Images\Meat\Filet.jfif" class="Image-of-item" alt="Filet" style="width:230px;height: 200px;">
+        <p id="Filet-Paragraph">This beef cut is one of the most tender there is. It may be lean, but is succulent and
+          elegant. <span class="Price-of-item">295.99 rand p/kg</span></p>
+         
+          <button class="btn btn-primary Add-to-cart-button" type="button">Add to cart</button>
+      </article>
+
+      <article id="Shank-Art">
+        <span class="Heading-of-item">SHANK</span>
+        <img src="Images\Meat\Shank.jpg" class="Image-of-item" alt="Shank" style="width:230px;height: 150px;">
+        <p id="Shank-Paragraph">Flavorful, lean and very tender when braised or cooked in liquid. <span class="Price-of-item">85.99 rand p/kg</span></p>
+          
+          <button class="btn btn-primary Add-to-cart-button" type="button">Add to cart</button>
+      </article>
+
+      <article id="Brisket-Art">
+        <span class="Heading-of-item">WHOLE BRISKET</span>
+        <img src="Images\Meat\Brisket.jfif" class="Image-of-item" alt="Brisket" style="width:230px;height: 200px;">
+        <p id="Brisket-Paragraph">This beef cut comes from the lower breast of a cow and because this is such a
+          well-exercised area, it makes for a tough piece of meat. <span class="Price-of-item">139.99 rand p/kg</span></p>
+          
+          <button class="btn btn-primary Add-to-cart-button" type="button">Add to cart</button>
+      </article>
+
+      <article id="Beef-Art">
+        <span class="Heading-of-item">GROUND BEEF</span>
+        <img src="Images\Meat\Beef.jfif" class="Image-of-item" alt="Beef" style="width:230px;height: 200px;">
+        <p id="Beef-Paragraph">This kind of meat has been processed by way of a meat grinder. It is very versatile and
+          can be used in multiple dishes. <span class="Price-of-item">99.99 rand p/kg</span></p>
+       
+          <button class="btn btn-primary Add-to-cart-button" type="button">Add to cart</button>
+      </article>
+    </section>
+
+    <!--Product section 2 end-->
+
+    <!--Footer start-->
+    <!--In the footer section I have added links to social media applications.-->
+   <section id="Footer-Section"> 
+      <div class="footer">
+        <h2 id="contact-message">Can't wait to hear from you</h2>
+      </div>
+        <div class="contact-links">
+          <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+          <a href="mailto:deonholl@ymail.com" class="fa fa-yahoo"></a>
+          <a href="tel:0824035225" class="fa fa-phone"></a>
+        </div>
+    
+   </section>
+
+    <!--Footer end-->
+    
+  </section>
+ 
+  <!--Background end-->
+  
+</body>
+
+</html>

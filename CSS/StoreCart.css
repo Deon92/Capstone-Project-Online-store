@@ -1,0 +1,98 @@
+.container-coupon-promo {
+    background-color: #56CCF2;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 250px;
+    border: 2px solid black ;
+    border-radius: 5px;
+  }
+
+  .coupon-heading {
+    text-align: center;
+    
+  }
+
+  .coupon-discount-amount {
+    text-align: center;
+  }
+
+  .extra-info {
+    text-align: center;
+  }
+
+
+  #email {
+    width: 200px;
+    margin-left: 100px;
+    height: 30px;
+    border: 2px solid grey ;
+  }
+
+  .coupon-submit-btn {
+    width: 150px;
+    height: 30px;
+    margin-left: 130px;
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+  }
+
+  
+  .delivery-collection-heading {
+    line-height: 5%;
+    font-weight: bold;
+  }
+
+  #deliver {
+    margin-left: 10px;
+  }
+
+  .delivery-method {
+    line-height: 5%;
+    font-weight: bold;
+  }
+
+  .delivery {
+    /*display: none;*/
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  #delivery-meth-2 {
+    margin-left: 20px;
+  }
+
+  .basketSubTotalTitle {
+    float: left;
+  }
+
+  .basketSubTotal {
+    margin-left: 150px;
+  }
+
+  .basketVatTitle {
+    float: left;
+  }
+
+  .basketTotalVat {
+    margin-left: 150px;
+  }
+
+  .basketTotalTitle {
+    float: left;
+  }
+
+  .basketTotal {
+    margin-left: 150px;
+  }
+
+ .confirm-order-btn {
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  
+ }
+ /*
+}

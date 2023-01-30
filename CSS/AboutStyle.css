@@ -1,0 +1,447 @@
+/*Background start*/
+
+#Background {
+  background-image: url(https://media.istockphoto.com/photos/ploughed-field-and-gated-fence-on-a-bright-spring-morning-in-beverley-picture-id1136574633?b=1&k=20&m=1136574633&s=612x612&w=0&h=2df6fh_0pHMXLnCJrtiCDGfV8Adt7VDrrVTyz8e2Lkc=);
+  padding-top: 150px;
+  background-repeat: no-repeat;
+  background-size: 2000px 1250px;
+  background-blend-mode: multiply;
+  display: flex;
+  flex-direction: column;
+}
+
+/*I have styled the different paragraph sections to change color.*/
+@keyframes mymove {
+  from {
+    background-color: #d9fff1;
+  }
+
+  to {
+    background-color: #f0f8ff;
+  }
+}
+
+@keyframes mymove {
+  from {
+    background-color: #fed9d5;
+  }
+
+  to {
+    background-color: #f0f8ff;
+  }
+}
+
+/*Background end*/
+
+/*Heading start*/
+
+#Heading {
+  text-align: center;
+}
+
+/*Heading end*/
+
+/*Nav section start*/
+/*Navbar start*/
+
+#nav-bar {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Navbar end*/
+
+/*Nav link start*/
+
+.nav-link {
+  color: rgb(5, 5, 5);
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+/*Nav link end*/
+
+ul {
+  list-style-type: none;
+  padding-right: 25px;
+
+}
+
+/*Header start*/
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 5px;
+  background-color: rgb(25, 230, 179);
+  z-index: 10;
+}
+
+/*Header end*/
+
+/*Styling the Home tab*/
+#Home {
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+/*Styling the Product Menu tab*/
+#Product-Menu {
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+/*Styling the Contact tab*/
+#Contact {
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+/*Styling the Reviews tab*/
+#Reviews {
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+/*Nav section end*/
+
+/*About us start*/
+#AboutUs {
+  font-size: 20px;
+  margin-right: 800px;
+  margin-left: 10px;
+  font-family: sans-serif;
+  color: white;
+  text-shadow: 2px 2px #000000;
+  padding-left: 50px;
+  padding-right: 50px;
+  background: #fed9d5;
+  animation: mymove 5s infinite;
+}
+
+/*About us end*/
+
+/*Aim start*/
+#Aim {
+  font-size: 18px;
+  margin-left: 800px;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-right: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  text-shadow: 2px 2px #000000;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  background: #d9fff1;
+  animation: mymove 5s infinite;
+}
+
+/*Aim end*/
+
+/*Footer start*/
+
+#Footer-Section {
+  background-color: rgb(25, 230, 179);
+  margin-top: 50px;
+}
+
+.footer {
+  text-align: center;
+  background-color: rgb(25, 230, 179);
+  padding-top: 50px;
+}
+
+#contact-message {
+  color: white;
+  text-shadow: 2px 2px #131212;
+}
+
+/* Here I style the links to the social media platforms*/
+.contact-links {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 10px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/*Styling the Facebook icon*/
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/*Styling the Yahoo icon*/
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+/*Styling the Phone icon*/
+.fa-phone {
+  background: #63C5DA;
+  color: white;
+}
+
+/*Footer end*/
+
+
+@media all and (max-width: 1536px) {
+ 
+/*Background start*/
+
+#Background {
+  background-image: url(https://media.istockphoto.com/photos/ploughed-field-and-gated-fence-on-a-bright-spring-morning-in-beverley-picture-id1136574633?b=1&k=20&m=1136574633&s=612x612&w=0&h=2df6fh_0pHMXLnCJrtiCDGfV8Adt7VDrrVTyz8e2Lkc=);
+  padding-top: 150px;
+  background-repeat: no-repeat;
+  background-size: 2000px 1250px;
+  background-blend-mode: multiply;
+  display: flex;
+  flex-direction: column;
+}
+
+/*I have styled the different paragraph sections to change color.*/
+@keyframes mymove {
+  from {
+    background-color: #d9fff1;
+  }
+
+  to {
+    background-color: #f0f8ff;
+  }
+}
+
+@keyframes mymove {
+  from {
+    background-color: #fed9d5;
+  }
+
+  to {
+    background-color: #f0f8ff;
+  }
+}
+
+/*Background end*/
+
+/*Heading start*/
+
+#Heading {
+  text-align: center;
+}
+
+/*Heading end*/
+
+/*Nav section start*/
+/*Navbar start*/
+
+#nav-bar {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Navbar end*/
+
+/*Nav link start*/
+
+.nav-link {
+  color: rgb(5, 5, 5);
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+/*Nav link end*/
+
+ul {
+  list-style-type: none;
+  padding-right: 25px;
+
+}
+
+/*Header start*/
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 5px;
+  background-color: rgb(25, 230, 179);
+  z-index: 10;
+}
+
+/*Header end*/
+
+/*Styling the Home tab*/
+#Home {
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+/*Styling the Product Menu tab*/
+#Product-Menu {
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+/*Styling the Contact tab*/
+#Contact {
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+/*Styling the Reviews tab*/
+#Reviews {
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+/*Nav section end*/
+
+/*About us start*/
+#AboutUs {
+  font-size: 20px;
+  margin-right: 600px;
+  margin-left: 10px;
+  font-family: sans-serif;
+  color: white;
+  text-shadow: 2px 2px #000000;
+  padding-left: 50px;
+  padding-right: 50px;
+  background: #fed9d5;
+  animation: mymove 5s infinite;
+}
+
+/*About us end*/
+
+/*Aim start*/
+#Aim {
+  font-size: 18px;
+  margin-left: 600px;
+  padding-top: 20px;
+  margin-top: 80px;
+  margin-right: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  text-shadow: 2px 2px #000000;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  background: #d9fff1;
+  animation: mymove 5s infinite;
+}
+
+/*Aim end*/
+
+/*Footer start*/
+
+#Footer-Section {
+  background-color: rgb(25, 230, 179);
+  margin-top: 50px;
+}
+
+.footer {
+  text-align: center;
+  background-color: rgb(25, 230, 179);
+  padding-top: 50px;
+}
+
+/* Here I style the links to the social media platforms*/
+.contact-links {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 10px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/*Styling the Facebook icon*/
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/*Styling the Yahoo icon*/
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+/*Styling the Phone icon*/
+.fa-phone {
+  background: #63C5DA;
+  color: white;
+}
+
+/*Footer end*/  
+
+}

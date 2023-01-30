@@ -1,0 +1,588 @@
+/*Heading start*/
+
+#Heading {
+  text-align: center;
+}
+
+/*Heading end*/
+
+
+/*Nav section start*/
+/*Navbar start*/
+
+#nav-bar {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Navbar end*/
+
+/*Nav link start*/
+
+.nav-link {
+  color: rgb(5, 5, 5);
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+/*Nav link end*/
+
+
+ul {
+  list-style-type: none;
+  padding-right: 25px;
+
+}
+
+#Home {
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+#Contact {
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+#About {
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+#Reviews {
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+/*Nav section end*/
+
+/*Header start*/
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 5px;
+  background-color: rgb(25, 230, 179);
+  z-index: 10;
+}
+
+/*Heading end*/
+
+#Product-Section {
+  padding-top: 100px;
+  padding-bottom: 500px;
+}
+
+#Meat-Art {
+  float: left;
+  height: auto;
+  border: rgb(0, 0, 0) solid;
+  border-radius: 5px;
+  display: inline-block;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 100px;
+  margin-right: 50px;
+  width: 17%;
+}
+
+#Meat-Heading {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-decoration: underline;
+}
+
+#Dairy-Art {
+  float: left;
+  height: auto;
+  border: rgb(0, 0, 0) solid;
+  border-radius: 5px;
+  display: inline-block;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 17%;
+}
+
+#Dairy-Heading {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-decoration: underline;
+}
+
+#Veg-Art {
+  float: left;
+  height: auto;
+  border: rgb(0, 0, 0) solid;
+  border-radius: 5px;
+  display: inline-block;
+  padding-bottom: 78px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 17%;
+}
+
+#Veg-Heading {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-decoration: underline;
+}
+
+#Fruit-Art {
+  float: left;
+  height: auto;
+  border: rgb(0, 0, 0) solid;
+  border-radius: 5px;
+  display: inline-block;
+  padding-bottom: 29px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 17%;
+}
+
+#Fruit-Heading {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-decoration: underline;
+}
+
+#Meat-Art>p {
+  text-align: justify;
+  padding: 10px;
+  padding-bottom: 35px;
+}
+
+#Dairy-Art>p {
+  text-align: justify;
+  padding: 10px;
+  padding-bottom: 84px;
+}
+
+#Veg-Art>p {
+  text-align: justify;
+  padding: 10px;
+}
+
+#Fruit-Art>p {
+  text-align: justify;
+  padding: 10px;
+}
+
+#Food-Table {
+  height: 500px;
+  width: 1000px;
+  margin-left: 450px;
+  margin-top: 150px;
+  filter: opacity(50%);
+  border: rgb(3, 3, 3) solid
+}
+
+#Table-Picture {
+  background-color: rgb(233, 232, 232);
+  padding-bottom: 50px;
+}
+
+/*Link hover start*/
+
+#Meat-Product-Link:hover {
+  opacity: 0.5;
+}
+
+#Dairy-Product-Link:hover {
+  opacity: 0.5;
+}
+
+#Veg-Product-Link:hover {
+  opacity: 0.5;
+}
+
+#Fruit-Product-Link:hover {
+  opacity: 0.5;
+}
+
+/*Link hover end*/
+
+#Image-of-item {
+  border: rgb(139, 206, 169) solid;
+  margin-left: 30px;
+}
+
+/*Footer start*/
+
+.footer {
+  text-align: center;
+  background-color: rgb(25, 230, 179);
+  padding-top: 50px;
+}
+
+#contact-message {
+  color: white;
+  text-shadow: 2px 2px #131212;
+}
+
+.contact-links {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 10px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-phone {
+  background: #63C5DA;
+  color: white;
+}
+
+/*Footer end*/
+
+
+@media all and (max-width: 1536px) {
+
+
+  /*Heading start*/
+
+#Heading {
+  text-align: center;
+}
+
+/*Heading end*/
+
+
+/*Nav section start*/
+/*Navbar start*/
+
+#nav-bar {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Navbar end*/
+
+/*Nav link start*/
+
+.nav-link {
+  color: rgb(5, 5, 5);
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+/*Nav link end*/
+
+
+ul {
+  list-style-type: none;
+  padding-right: 25px;
+
+}
+
+#Home {
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+#Contact {
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+#About {
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+#Reviews {
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+/*Nav section end*/
+
+/*Header start*/
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 5px;
+  background-color: rgb(25, 230, 179);
+  z-index: 10;
+}
+
+/*Heading end*/
+
+#Product-Section {
+  padding-top: 100px;
+  padding-bottom: 500px;
+}
+
+#Meat-Art {
+  float: left;
+  height: auto;
+  border: rgb(0, 0, 0) solid;
+  border-radius: 5px;
+  display: inline-block;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 100px;
+  margin-right: 50px;
+  width: 17%;
+}
+
+#Meat-Heading {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-decoration: underline;
+}
+
+#Dairy-Art {
+  float: left;
+  height: auto;
+  border: rgb(0, 0, 0) solid;
+  border-radius: 5px;
+  display: inline-block;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 17%;
+}
+
+#Dairy-Heading {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-decoration: underline;
+}
+
+#Veg-Art {
+  float: left;
+  height: auto;
+  border: rgb(0, 0, 0) solid;
+  border-radius: 5px;
+  display: inline-block;
+  padding-bottom: 78px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 17%;
+}
+
+#Veg-Heading {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-decoration: underline;
+}
+
+#Fruit-Art {
+  float: left;
+  height: auto;
+  border: rgb(0, 0, 0) solid;
+  border-radius: 5px;
+  display: inline-block;
+  padding-bottom: 29px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 17%;
+}
+
+#Fruit-Heading {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-decoration: underline;
+}
+
+#Meat-Art>p {
+  text-align: justify;
+  padding: 10px;
+  padding-bottom: 35px;
+}
+
+#Dairy-Art>p {
+  text-align: justify;
+  padding: 10px;
+  padding-bottom: 84px;
+}
+
+#Veg-Art>p {
+  text-align: justify;
+  padding: 10px;
+}
+
+#Fruit-Art>p {
+  text-align: justify;
+  padding: 10px;
+}
+
+#Food-Table {
+  height: 500px;
+  width: 1000px;
+  margin-left: 250px;
+  margin-top: 150px;
+  filter: opacity(50%);
+  border: rgb(3, 3, 3) solid
+}
+
+#Table-Picture {
+  background-color: rgb(233, 232, 232);
+  padding-bottom: 50px;
+}
+
+/*Link hover start*/
+
+#Meat-Product-Link:hover {
+  opacity: 0.5;
+}
+
+#Dairy-Product-Link:hover {
+  opacity: 0.5;
+}
+
+#Veg-Product-Link:hover {
+  opacity: 0.5;
+}
+
+#Fruit-Product-Link:hover {
+  opacity: 0.5;
+}
+
+/*Link hover end*/
+
+#Image-of-item {
+  border: rgb(139, 206, 169) solid;
+  margin-left: 0px;
+}
+
+/*Footer start*/
+
+.footer {
+  text-align: center;
+  background-color: rgb(25, 230, 179);
+  padding-top: 50px;
+}
+
+#contact-message {
+  color: white;
+  text-shadow: 2px 2px #131212;
+}
+
+.contact-links {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 10px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-phone {
+  background: #63C5DA;
+  color: white;
+}
+
+/*Footer end*/
+}

@@ -1,0 +1,850 @@
+/*Heading start*/
+
+#Heading {
+  text-align: center;
+}
+
+/*Heading end*/
+
+/*Nav section start*/
+/*Navbar start*/
+
+#nav-bar {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Navbar end*/
+
+/*Nav link start*/
+
+.nav-link {
+  color: rgb(5, 5, 5);
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+/*Nav link end*/
+
+ul {
+  list-style-type: none;
+  padding-right: 25px;
+
+}
+
+/*Header start*/
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 5px;
+  background-color: rgb(25, 230, 179);
+  z-index: 10;
+}
+
+/*Header end*/
+
+/*Styling the Home tab*/
+#Home {
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+/*Styling the Product Menu tab*/
+#Product-Menu {
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+/*Styling the Contact tab*/
+#Contact {
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+/*Nav section end*/
+
+/*In the following section I styled the products menu */
+#Product-Menu:before {
+  content: "Products";
+  display: inline-block;
+  width: 50px;
+}
+
+#Product-Menu:after {
+  content: "\2261";
+  display: inline-block;
+  margin-left: 24px;
+  width: 10px;
+}
+
+.sub-nav {
+  display: none;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 55px;
+}
+
+.sub-nav a {
+  display: block;
+  color: black;
+  background-color: lightgray;
+  padding-right: 7px;
+  padding-left: 7px;
+  box-shadow: 5px 5px;
+}
+
+/*In the following section I styled the background image */
+#Food-Table {
+  margin-left: 350px;
+  margin-top: 150px;
+  filter: opacity(50%);
+  border: rgb(3, 3, 3) solid
+}
+
+#Table-Picture {
+  background-color: rgb(233, 232, 232);
+  padding-bottom: 50px;
+}
+
+/*In the following section I styled the About-Veggie section */
+#About-Veggies {
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-top: 80px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#About-Veggies-Heading {
+  text-align: center;
+}
+
+h3 {
+  color: #3B5998;
+}
+
+/*In the this section I styled the heading of each product */  
+.Heading-of-item {
+  text-align: center;
+  height: auto;
+  border: rgb(0, 0, 0) solid;
+  border-radius: 5px;
+  display: inline-block;
+  padding-bottom: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  width: 90%;
+  background-color: #eee;
+}
+
+/*First production section start*/
+
+#First-Product-Section {
+  padding-top: 100px;
+  padding-bottom: 500px;
+}
+
+/*In the following section I style the article in which every product is displayed */  
+#Asparagus-Art {
+  float: left;
+  height: 450px;
+  border: rgb(0, 0, 0) solid;
+  border-radius: 5px;
+  display: inline-block;
+  padding-bottom: 0px;
+  padding-left: auto;
+  padding-right: auto;
+  margin-left: 100px;
+  margin-right: 50px;
+  width: 17%;
+  background-color: #aaf2ef;
+}
+
+#Broccoli-Art {
+  float: left;
+  height: 450px;
+  border: rgb(0, 0, 0) solid;
+  border-radius: 5px;
+  display: inline-block;
+  padding-bottom: 0px;
+  padding-left: auto;
+  padding-right: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 17%;
+  background-color: #aaf2ef;
+}
+
+#Cabbage-Art {
+  float: left;
+  height: 450px;
+  border: rgb(0, 0, 0) solid;
+  border-radius: 5px;
+  display: inline-block;
+  padding-bottom: 0px;
+  padding-left: auto;
+  padding-right: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 17%;
+  background-color: #aaf2ef;
+}
+
+#Peppers-Art {
+  float: left;
+  height: 450px;
+  border: rgb(0, 0, 0) solid;
+  border-radius: 5px;
+  display: inline-block;
+  padding-bottom: 0px;
+  padding-left: auto;
+  padding-right: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 17%;
+  background-color: #aaf2ef;
+}
+
+/*In this section I style the paragraph which describes each product*/
+#Asparagus-Art>p {
+  text-align: justify;
+  padding: 10px;
+  padding-bottom: 35px;
+}
+
+#Broccoli-Art>p {
+  text-align: justify;
+  padding: 10px;
+  padding-bottom: 85px;
+}
+
+#Cabbage-Art>p {
+  text-align: justify;
+  padding: 10px;
+  padding-bottom: 59px;
+}
+
+#Peppers-Art>p {
+  text-align: justify;
+  padding: 10px;
+  padding-bottom: 35px;
+}
+
+/*In this section I apply styling to the images of the products */
+.Image-of-item {
+  margin-left: 45px;
+  border: rgb(0, 0, 0) solid;
+}
+
+.Image-of-item:hover {
+  transform: scale(1.3)
+}
+
+
+/*First production section end*/
+
+/*Second production section start*/
+
+#Second-Product-Section {
+  padding-top: 100px;
+  padding-bottom: 500px;
+}
+
+/*In the following section I style the article in which every product is displayed */
+#Carrots-Art {
+  float: left;
+  height: 450px;
+  border: rgb(0, 0, 0) solid;
+  border-radius: 5px;
+  display: inline-block;
+  padding-bottom: 0px;
+  padding-left: auto;
+  padding-right: auto;
+  margin-left: 100px;
+  margin-right: 50px;
+  width: 17%;
+  background-color: #aaf2ef;
+}
+
+#Corn-Art {
+  float: left;
+  height: 450px;
+  border: rgb(0, 0, 0) solid;
+  border-radius: 5px;
+  display: inline-block;
+  padding-bottom: 0px;
+  padding-left: auto;
+  padding-right: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 17%;
+  background-color: #aaf2ef;
+}
+
+#Tomato-Art {
+  float: left;
+  height: 450px;
+  border: rgb(0, 0, 0) solid;
+  border-radius: 5px;
+  display: inline-block;
+  padding-bottom: 0px;
+  padding-left: auto;
+  padding-right: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 17%;
+  background-color: #aaf2ef;
+}
+
+#Potato-Art {
+  float: left;
+  height: 450px;
+  border: rgb(0, 0, 0) solid;
+  border-radius: 5px;
+  display: inline-block;
+  padding-bottom: 0px;
+  padding-left: auto;
+  padding-right: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 17%;
+  background-color: #aaf2ef;
+}
+
+/*In this section I style the paragraph which describes each product*/
+#Carrots-Art>p {
+  text-align: justify;
+  padding: 10px;
+  padding-bottom: 35px;
+}
+
+#Corn-Art>p {
+  text-align: justify;
+  padding: 10px;
+  padding-bottom: 85px;
+}
+
+#Tomato-Art>p {
+  text-align: justify;
+  padding: 10px;
+  padding-bottom: 11px;
+}
+
+#Potato-Art>p {
+  text-align: justify;
+  padding: 10px;
+  padding-bottom: 35px;
+}
+
+/*Second production section end*/
+
+.Add-to-cart-button {
+  margin-left: 10px;
+}
+
+/*Footer start*/
+
+#Footer-Section {
+  background-color: rgb(25, 230, 179);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#contact-message {
+  color: white;
+  text-shadow: 2px 2px #131212;
+}
+
+/* Here I style the links to the social media platforms*/
+.contact-links {
+  padding-top: 20px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 10px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-phone {
+  background: #63C5DA;
+  color: white;
+}
+
+/*Footer end*/
+
+
+
+@media all and (max-width: 1536px) {
+
+  
+ 
+  
+  /*Heading start*/
+  
+  #Heading {
+    text-align: center;
+  }
+  
+  /*Heading end*/
+  
+  /*Nav section start*/
+  /*Navbar start*/
+  
+  #nav-bar {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /*Navbar end*/
+  
+  /*Nav link start*/
+  
+  .nav-link {
+    color: rgb(5, 5, 5);
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    float: left;
+    padding: 1px;
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  
+  /*Nav link end*/
+  
+  ul {
+    list-style-type: none;
+    padding-right: 25px;
+  }
+
+  /*Header start*/
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: rgb(25, 230, 179);
+    z-index: 10;
+      }
+      
+    /*Header end*/
+  
+  #Home {
+    float: left;
+    padding-left: 1px;
+    padding-right: 5px;
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    background-color: lightgray;
+  }
+  
+  #Product-Menu {
+    float: left;
+    padding-left: 1px;
+    padding-right: 5px;
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    background-color: lightgray;
+  }
+  
+  #Contact {
+    float: left;
+    padding-left: 1px;
+    padding-right: 5px;
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    background-color: lightgray;
+  }
+  
+  /*Nav section end*/
+  
+  /*In the following section I styled the products menu */
+  #Product-Menu:before {
+    content: "Products";
+    display: inline-block;
+    width: 50px;
+  }
+
+  #Product-Menu:after {
+    content: "\2261";
+    display: inline-block;
+    margin-left: 24px;
+    width: 10px;
+  }
+
+  .sub-nav {
+    display: none;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 55px;
+  }
+
+  .sub-nav a {
+    display: block;
+    color: black;
+    background-color: lightgray;
+    padding-right: 7px;
+    padding-left: 7px;
+    box-shadow: 5px 5px;
+  }
+
+
+  /*In the following section I styled the background image */
+  #Food-Table {
+    margin-left: 180px;
+    margin-top: 150px;
+    filter: opacity(50%);
+    border: rgb(3, 3, 3) solid
+  }
+  
+  #Table-Picture {
+    background-color: rgb(233, 232, 232);
+    padding-bottom: 50px;
+  }
+
+/*In the following section I styled the About-Meat section */
+  #About-Veggies {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  #About-Veggies-Heading {
+    text-align: center;
+  }
+  
+  h3 {
+    color: #3B5998;
+  }
+
+/*In the this section I styled the heading of each product */  
+  .Heading-of-item {
+    text-align: center;
+    height: auto;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding-bottom: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    width: 90%;
+    background-color: #eee;
+  }
+  
+  /*First production section start*/
+  #First-Product-Section {
+    padding-top: 100px;
+    padding-bottom: 500px;
+  }
+
+  
+/*In the following section I style the article in which every product is displayed */  
+#Asparagus-Art {
+  float: left;
+  height: 480px;
+  border: rgb(0, 0, 0) solid;
+  border-radius: 5px;
+  display: inline-block;
+  padding-bottom: 0px;
+  padding-left: auto;
+  padding-right: auto;
+  margin-left: 100px;
+  margin-right: 50px;
+  width: 17%;
+  background-color: #aaf2ef;
+}
+
+#Broccoli-Art {
+  float: left;
+  height: 480px;
+  border: rgb(0, 0, 0) solid;
+  border-radius: 5px;
+  display: inline-block;
+  padding-bottom: 0px;
+  padding-left: auto;
+  padding-right: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 17%;
+  background-color: #aaf2ef;
+}
+
+#Cabbage-Art {
+  float: left;
+  height: 480px;
+  border: rgb(0, 0, 0) solid;
+  border-radius: 5px;
+  display: inline-block;
+  padding-bottom: 0px;
+  padding-left: auto;
+  padding-right: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 17%;
+  background-color: #aaf2ef;
+}
+
+#Peppers-Art {
+  float: left;
+  height: 480px;
+  border: rgb(0, 0, 0) solid;
+  border-radius: 5px;
+  display: inline-block;
+  padding-bottom: 0px;
+  padding-left: auto;
+  padding-right: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 17%;
+  background-color: #aaf2ef;
+}
+  
+  /*In this section I style the paragraph which describes each product*/ 
+  #Asparagus-Art>p {
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 41px;
+  }
+  
+  #Broccoli-Art>p {
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 115px;
+  }
+  
+  #Cabbage-Art>p {
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 65px;
+  }
+  
+  #Peppers-Art>p {
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 41px;
+  }
+
+  /*In this section I apply styling to the images of the products */
+  .Image-of-item {
+    margin-left: 13px;
+    border: rgb(0, 0, 0) solid;
+  }
+  
+  .Image-of-item:hover {
+    transform: scale(1.3)
+  }
+  
+  /*First production section end*/
+  
+  /*Second production section start*/
+  
+  #Second-Product-Section {
+    padding-top: 100px;
+    padding-bottom: 500px;
+  }
+  
+  /*In the following section I style the article in which every product is displayed */
+  #Carrots-Art {
+    float: left;
+    height: 480px;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 100px;
+    margin-right: 50px;
+    width: 17%;
+    background-color: #aaf2ef;
+  }
+  
+  #Corn-Art {
+    float: left;
+    height: 480px;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 17%;
+    background-color: #aaf2ef;
+  }
+  
+  #Tomato-Art {
+    float: left;
+    height: 480px;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 17%;
+    background-color: #aaf2ef;
+  }
+  
+  #Potato-Art {
+    float: left;
+    height: 480px;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 17%;
+    background-color: #aaf2ef;
+  }
+  
+  /*In this section I style the paragraph which describes each product*/ 
+  #Carrots-Art>p {
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 41px;
+  }
+  
+  #Corn-Art>p {
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 91px;
+  }
+  
+  #Tomato-Art>p {
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 17px;
+  }
+  
+  #Potato-Art>p {
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 41px;
+  }
+  
+  
+  .Add-to-cart-button {
+    margin-left: 10px;
+  }
+  
+  /*Second production section end*/
+  
+
+  /*Footer start*/
+  #Footer-Section {
+    background-color: rgb(25, 230, 179);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+
+  .footer {
+    text-align: center;
+    background-color: rgb(25, 230, 179);
+    padding-top: 50px;
+  }
+  
+  
+  /* Here I style the links to the social media platforms*/
+  .contact-links {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  
+  .fa {
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 10px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+  
+  .fa-phone {
+    background: #63C5DA;
+    color: white;
+  }
+  
+  /*Footer end*/
+  }

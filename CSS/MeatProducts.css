@@ -1,0 +1,1293 @@
+/*Heading start*/
+
+#Heading {
+    text-align: center;
+  }
+  
+  /*Heading end*/
+  
+  /*Nav section start*/
+  /*Navbar start*/
+  
+  #nav-bar {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /*Navbar end*/
+  
+  /*Nav link start*/
+  
+  .nav-link {
+    color: rgb(5, 5, 5);
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    float: left;
+    padding: 1px;
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  
+  /*Nav link end*/
+  
+  ul {
+    list-style-type: none;
+    padding-right: 25px;
+  
+  }
+
+    /*Header start*/
+  
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding-top: 5px;
+      padding-bottom: 10px;
+      background-color: rgb(25, 230, 179);
+      z-index: 10;
+    }
+    
+  /*Header end*/
+
+  /*Styling the Home tab*/
+  #Home {
+    float: left;
+    padding-left: 1px;
+    padding-right: 5px;
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    background-color: lightgray;
+  }
+  
+
+  /*Styling the Product Menu tab*/
+  #Product-Menu {
+    float: left;
+    padding-left: 1px;
+    padding-right: 5px;
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    background-color: lightgray;
+  }
+
+  /*Styling the Contact tab*/
+  #Contact {
+    float: left;
+    padding-left: 1px;
+    padding-right: 5px;
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    background-color: lightgray;
+  }
+  
+/*Nav section end*/
+
+/*In the following section I styled the products menu */
+  #Product-Menu:before {
+    content: "Products";
+    display: inline-block;
+    width: 50px;
+  }
+
+  #Product-Menu:after {
+    content: "\2261";
+    display: inline-block;
+    margin-left: 24px;
+    width: 10px;
+  }
+
+  .sub-nav {
+    display: none;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 55px;
+  }
+
+  .sub-nav a {
+    display: block;
+    color: black;
+    background-color: lightgray;
+    padding-right: 7px;
+    padding-left: 7px;
+    box-shadow: 5px 5px;
+  }
+
+/*In the following section I styled the background image */
+  #Food-Table {
+    margin-left: 350px;
+    margin-top: 150px;
+    filter: opacity(50%);
+    border: rgb(3, 3, 3) solid
+  }
+  
+  #Table-Picture {
+    background-color: rgb(233, 232, 232);
+    padding-bottom: 50px;
+  }
+
+/*In the following section I styled the About-Meat section */
+  #About-Meat {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  #About-Meat-Heading {
+    text-align: center;
+  }
+  
+  h3 {
+    color: #3B5998;
+  }
+
+/*In the this section I styled the heading of each product */  
+  .Heading-of-item {
+    text-align: center;
+    height: auto;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding-bottom: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    width: 90%;
+    background-color: #eee;
+  }
+  
+  /*First production section start*/
+  #First-Product-Section {
+    padding-top: 100px;
+    padding-bottom: 500px;
+  }
+
+  
+/*In the following section I style the article in which every product is displayed */  
+  #Ribeye-Art {
+    float: left;
+    height: 450px;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 100px;
+    margin-right: 50px;
+    width: 17%;
+    background-color: #aaf2ef;
+  }
+  
+  #Ribs-Art {
+    float: left;
+    height: 450px;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 17%;
+    background-color: #aaf2ef;
+  }
+   
+  #T-Bone-Art {
+    float: left;
+    height: 450px;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 17%;
+    background-color: #aaf2ef;
+  }
+  
+  #Porterhouse-Art {
+    float: left;
+    height: 450px;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 17%;
+    background-color: #aaf2ef;
+  }
+  
+  /*In this section I style the paragraph which describes each product*/ 
+  #Ribeye-Art>p {
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 59px;
+  }
+  
+  #Ribs-Art>p {
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 59px;
+  }
+  
+  #T-Bone-Art>p {
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 35px;
+  }
+  
+  #Porterhouse-Art>p {
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 35px;
+  }
+
+  /*In this section I apply styling to the images of the products */
+  .Image-of-item {
+    margin-left: 45px;
+    border: rgb(0, 0, 0) solid;
+  }
+  
+  .Image-of-item:hover {
+    transform: scale(1.3)
+  }
+  
+  /*First production section end*/
+  
+  /*Second production section start*/
+  
+  #Second-Product-Section {
+    padding-top: 100px;
+    padding-bottom: 500px;
+  }
+  
+  /*In the following section I style the article in which every product is displayed */
+  #Filet-Art {
+    float: left;
+    height: 450px;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 100px;
+    margin-right: 50px;
+    width: 17%;
+    background-color: #aaf2ef;
+  }
+  
+  
+  #Shank-Art {
+    float: left;
+    height: 450px;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 17%;
+    background-color: #aaf2ef;
+  }
+  
+  
+  #Brisket-Art {
+    float: left;
+    height: 450px;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 17%;
+    background-color: #aaf2ef;
+  }
+  
+  
+  #Beef-Art {
+    float: left;
+    height: 450px;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 17%;
+    background-color: #aaf2ef;
+  }
+  
+  /*In this section I style the paragraph which describes each product*/ 
+  #Filet-Art>p {
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 59px;
+  }
+  
+  #Shank-Art>p {
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 109px;
+  }
+  
+  #Brisket-Art>p {
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 35px;
+  }
+  
+  #Beef-Art>p {
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 35px;
+  }
+
+  .Add-to-cart-button {
+    margin-left: 10px;
+  }
+  
+  /*Second production section end*/
+  
+  /*Store cart styling start*/
+  
+  .cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+  }
+  
+  .cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+  }
+ 
+ .product-container {
+     max-width: 1000px;
+     margin-left: auto;
+     margin-right: auto;
+    }
+  
+  .product-header {
+    margin-top: 150px;
+    max-width: 100%;
+    }
+  
+  .product-title {
+    float: left;
+    margin-left: 50px;
+    display: inline;
+    width: 20%;
+    }
+  
+  .product-price {
+      float: left;
+      display: inline;
+      width: 10%;
+      margin-left: 100px;
+    }
+  
+  .product-quantity {
+      float: left;
+      display: inline;
+      width: 15%;
+    }
+  
+    .total {
+      float: left;
+      display: inline;
+      width: 30%;
+      margin-left: 100px;
+    }
+  
+    .cart-item {
+      margin-left: 0px;
+      margin-bottom: 50px;
+      width: 100%;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      padding-top: 10px;
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  
+    .cart-item-image {
+      width: 10%;
+      display: inline;
+      box-shadow: 5px 5px;
+      align-items: center;
+    }
+  
+    .cart-item-title {
+      width: 10%;
+      display: inline;
+      align-items: center;
+      margin-left: 50px;
+    }
+  
+    .cart-item-price {
+      width: 10%;
+      display: inline;
+      align-items: center;
+      margin-left: 100px;
+    }
+  
+    .cart-quantity-input {
+      display: inline;
+      align-items: center;
+      height: 34px;
+      width: 40px;
+      border-radius: 5px;
+      border: 1px solid #56CCF2;
+      background-color: #eee;
+      color: #333;
+      padding: 0;
+      text-align: right;
+      font-size: 1.2em;
+      margin-left: 25px;
+      margin-right: 20px;
+    }
+  
+    .item-total {
+      display: inline;
+      align-items: center;
+      margin-left: 170px;
+    }
+
+    .basketSubTotalTitle {
+      float: left;
+    }
+  
+    .basketSubTotal {
+      margin-left: 150px;
+    }
+  
+    .basketVatTitle {
+      float: left;
+    }
+  
+    .basketTotalVat {
+      margin-left: 150px;
+    }
+  
+    .basketTotalTitle {
+      float: left;
+    }
+  
+    .basketTotal {
+      margin-left: 150px;
+    }
+  
+   .confirm-order-btn {
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+   }
+
+
+  /*Discount Coupon styling*/
+  .container-coupon-promo {
+    background-color: #56CCF2;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 250px;
+    border: 2px solid black ;
+    border-radius: 5px;
+  }
+
+  .coupon-heading {
+    text-align: center;
+    
+  }
+
+  .coupon-discount-amount {
+    text-align: center;
+  }
+
+  .extra-info {
+    text-align: center;
+  }
+
+
+  #email {
+    width: 200px;
+    margin-left: 100px;
+    height: 30px;
+    border: 2px solid grey ;
+  }
+
+  .coupon-submit-btn {
+    width: 150px;
+    height: 30px;
+    margin-left: 130px;
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+  }
+
+  /*Delivery styling*/  
+  .delivery-collection-heading {
+    line-height: 5%;
+    font-weight: bold;
+  }
+
+  #deliver {
+    margin-left: 10px;
+  }
+
+  .delivery-method {
+    line-height: 5%;
+    font-weight: bold;
+  }
+
+  .delivery {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  #delivery-meth-2 {
+    margin-left: 20px;
+  }
+
+  /*Store cart styling end*/  
+
+  /*Footer start*/
+
+  #Footer-Section {
+    background-color: rgb(25, 230, 179);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+
+  .footer {
+    text-align: center;
+    background-color: rgb(25, 230, 179);
+    padding-top: 50px;
+  }
+  
+  #contact-message {
+    color: white;
+    text-shadow: 2px 2px #131212;
+  }
+  
+  /* Here I style the links to the social media platforms*/
+  .contact-links {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  
+  .fa {
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 10px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+  
+  .fa-phone {
+    background: #63C5DA;
+    color: white;
+  }
+  
+  /*Footer end*/
+
+
+
+
+
+  @media all and (max-width: 1536px) {
+
+  
+ 
+  
+  /*Heading start*/
+  
+  #Heading {
+    text-align: center;
+  }
+  
+  /*Heading end*/
+  
+  /*Nav section start*/
+  /*Navbar start*/
+  
+  #nav-bar {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /*Navbar end*/
+  
+  /*Nav link start*/
+  
+  .nav-link {
+    color: rgb(5, 5, 5);
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    float: left;
+    padding: 1px;
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  
+  /*Nav link end*/
+  
+  ul {
+    list-style-type: none;
+    padding-right: 25px;
+  }
+
+  /*Header start*/
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: rgb(25, 230, 179);
+    z-index: 10;
+      }
+      
+    /*Header end*/
+  
+  #Home {
+    float: left;
+    padding-left: 1px;
+    padding-right: 5px;
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    background-color: lightgray;
+  }
+  
+  #Product-Menu {
+    float: left;
+    padding-left: 1px;
+    padding-right: 5px;
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    background-color: lightgray;
+  }
+  
+  #Contact {
+    float: left;
+    padding-left: 1px;
+    padding-right: 5px;
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    background-color: lightgray;
+  }
+  
+  /*Nav section end*/
+  
+  /*In the following section I styled the products menu */
+  #Product-Menu:before {
+    content: "Products";
+    display: inline-block;
+    width: 50px;
+  }
+
+  #Product-Menu:after {
+    content: "\2261";
+    display: inline-block;
+    margin-left: 24px;
+    width: 10px;
+  }
+
+  .sub-nav {
+    display: none;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 55px;
+  }
+
+  .sub-nav a {
+    display: block;
+    color: black;
+    background-color: lightgray;
+    padding-right: 7px;
+    padding-left: 7px;
+    box-shadow: 5px 5px;
+  }
+
+
+  /*In the following section I styled the background image */
+  #Food-Table {
+    margin-left: 180px;
+    margin-top: 150px;
+    filter: opacity(50%);
+    border: rgb(3, 3, 3) solid
+  }
+  
+  #Table-Picture {
+    background-color: rgb(233, 232, 232);
+    padding-bottom: 50px;
+  }
+
+/*In the following section I styled the About-Meat section */
+  #About-Meat {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  #About-Meat-Heading {
+    text-align: center;
+  }
+  
+  h3 {
+    color: #3B5998;
+  }
+
+/*In the this section I styled the heading of each product */  
+  .Heading-of-item {
+    text-align: center;
+    height: auto;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding-bottom: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    width: 90%;
+    background-color: #eee;
+  }
+  
+  /*First production section start*/
+  #First-Product-Section {
+    padding-top: 100px;
+    padding-bottom: 500px;
+  }
+
+  
+/*In the following section I style the article in which every product is displayed */  
+  #Ribeye-Art {
+    float: left;
+    height: 480px;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 100px;
+    margin-right: 50px;
+    width: 17%;
+    background-color: #aaf2ef;
+  }
+  
+  #Ribs-Art {
+    float: left;
+    height: 480px;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 17%;
+    background-color: #aaf2ef;
+  }
+   
+  #T-Bone-Art {
+    float: left;
+    height: 480px;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 17%;
+    background-color: #aaf2ef;
+  }
+  
+  #Porterhouse-Art {
+    float: left;
+    height: 480px;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 17%;
+    background-color: #aaf2ef;
+  }
+  
+  /*In this section I style the paragraph which describes each product*/ 
+  #Ribeye-Art>p {
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 59px;
+  }
+  
+  #Ribs-Art>p {
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 35px;
+  }
+  
+  #T-Bone-Art>p {
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 35px;
+  }
+  
+  #Porterhouse-Art>p {
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 35px;
+  }
+
+  /*In this section I apply styling to the images of the products */
+  .Image-of-item {
+    margin-left: 10px;
+    border: rgb(0, 0, 0) solid;
+  }
+  
+  .Image-of-item:hover {
+    transform: scale(1.3)
+  }
+  
+  /*First production section end*/
+  
+  /*Second production section start*/
+  
+  #Second-Product-Section {
+    padding-top: 100px;
+    padding-bottom: 500px;
+  }
+  
+  /*In the following section I style the article in which every product is displayed */
+  #Filet-Art {
+    float: left;
+    height: 480px;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 100px;
+    margin-right: 50px;
+    width: 17%;
+    background-color: #aaf2ef;
+  }
+  
+  
+  #Shank-Art {
+    float: left;
+    height: 480px;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 17%;
+    background-color: #aaf2ef;
+  }
+  
+  
+  #Brisket-Art {
+    float: left;
+    height: 480px;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 17%;
+    background-color: #aaf2ef;
+  }
+  
+  
+  #Beef-Art {
+    float: left;
+    height: 480px;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 17%;
+    background-color: #aaf2ef;
+  }
+  
+  /*In this section I style the paragraph which describes each product*/ 
+  #Filet-Art>p {
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 59px;
+  }
+  
+  #Shank-Art>p {
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 133px;
+  }
+  
+  #Brisket-Art>p {
+    text-align: justify;
+    padding: 10px;
+    padding-bottom:11px;
+  }
+  
+  #Beef-Art>p {
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 35px;
+  }
+  
+  .Add-to-cart-button {
+    margin-left: 10px;
+  }
+  
+  /*Second production section end*/
+  
+  /*Store cart styling start*/
+
+  
+  .cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+  }
+  
+  .cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+  }
+ 
+ .product-container {
+     max-width: 1000px;
+     margin-left: auto;
+     margin-right: auto;
+    }
+  
+  .product-header {
+    margin-top: 150px;
+    max-width: 100%;
+    }
+  
+  .product-title {
+    float: left;
+    margin-left: 50px;
+    display: inline;
+    width: 20%;
+    }
+  
+  .product-price {
+      float: left;
+      display: inline;
+      width: 10%;
+      margin-left: 100px;
+    }
+  
+  .product-quantity {
+      float: left;
+      display: inline;
+      width: 15%;
+    }
+  
+    .total {
+      float: left;
+      display: inline;
+      width: 30%;
+      margin-left: 100px;
+    }
+  
+    .cart-item {
+      margin-left: 0px;
+      margin-bottom: 50px;
+      width: 100%;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      padding-top: 10px;
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  
+    .cart-item-image {
+      width: 10%;
+      display: inline;
+      box-shadow: 5px 5px;
+      align-items: center;
+    }
+  
+    .cart-item-title {
+      width: 10%;
+      display: inline;
+      align-items: center;
+      margin-left: 50px;
+    }
+  
+    .cart-item-price {
+      width: 10%;
+      display: inline;
+      align-items: center;
+      margin-left: 100px;
+    }
+  
+    .cart-quantity-input {
+      display: inline;
+      align-items: center;
+      height: 34px;
+      width: 40px;
+      border-radius: 5px;
+      border: 1px solid #56CCF2;
+      background-color: #eee;
+      color: #333;
+      padding: 0;
+      text-align: right;
+      font-size: 1.2em;
+      margin-left: 25px;
+      margin-right: 20px;
+    }
+  
+    .item-total {
+      display: inline;
+      align-items: center;
+      margin-left: 170px;
+    }
+
+    .basketSubTotalTitle {
+      float: left;
+    }
+  
+    .basketSubTotal {
+      margin-left: 150px;
+    }
+  
+    .basketVatTitle {
+      float: left;
+    }
+  
+    .basketTotalVat {
+      margin-left: 150px;
+    }
+  
+    .basketTotalTitle {
+      float: left;
+    }
+  
+    .basketTotal {
+      margin-left: 150px;
+    }
+  
+   .confirm-order-btn {
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+   }
+
+
+  /*Discount Coupon styling*/
+  .container-coupon-promo {
+    background-color: #56CCF2;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 250px;
+    border: 2px solid black ;
+    border-radius: 5px;
+  }
+
+  .coupon-heading {
+    text-align: center;
+    
+  }
+
+  .coupon-discount-amount {
+    text-align: center;
+  }
+
+  .extra-info {
+    text-align: center;
+  }
+
+
+  #email {
+    width: 200px;
+    margin-left: 100px;
+    height: 30px;
+    border: 2px solid grey ;
+  }
+
+  .coupon-submit-btn {
+    width: 150px;
+    height: 30px;
+    margin-left: 130px;
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+  }
+
+  /*Delivery styling*/  
+  .delivery-collection-heading {
+    line-height: 5%;
+    font-weight: bold;
+  }
+
+  #deliver {
+    margin-left: 10px;
+  }
+
+  .delivery-method {
+    line-height: 5%;
+    font-weight: bold;
+  }
+
+  .delivery {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  #delivery-meth-2 {
+    margin-left: 20px;
+  }
+
+  /*Store cart styling end*/  
+
+  /*Footer start*/
+  #Footer-Section {
+    background-color: rgb(25, 230, 179);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+
+  .footer {
+    text-align: center;
+    background-color: rgb(25, 230, 179);
+    padding-top: 50px;
+  }
+  
+  
+  /* Here I style the links to the social media platforms*/
+  .contact-links {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  
+  .fa {
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 10px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+  
+  .fa-phone {
+    background: #63C5DA;
+    color: white;
+  }
+  
+  /*Footer end*/
+  }

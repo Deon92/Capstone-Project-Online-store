@@ -1,0 +1,355 @@
+/*Background start*/
+
+#Background {
+  background-image: url(http://experienceidyllwild.com/UserStorage/0001641/blog-post-321.jpg);
+  padding-top: 200px;
+  background-repeat: no-repeat;
+  background-size: 2000px 1100px;
+  background-blend-mode: multiply;
+  display: flex;
+  flex-direction: column;
+}
+
+/*Background end*/
+
+/*Heading start*/
+
+#Heading {
+  text-align: center;
+}
+
+/*Heading end*/
+
+/*Nav section start*/
+/*Navbar start*/
+
+#nav-bar {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Navbar end*/
+
+/*Nav link start*/
+
+.nav-link {
+  color: rgb(5, 5, 5);
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+}
+
+/*Nav link end*/
+
+
+ul {
+  list-style-type: none;
+  padding-right: 25px;
+
+}
+
+li {
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+/*Nav section end*/
+
+/*Header start*/
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 5px;
+  background-color: rgb(25, 230, 179);
+  z-index: 10;
+}
+
+/*Header end*/
+
+#Slogan {
+  float: left;
+  color: white;
+  margin-top: 5px;
+  padding-left: 50px;
+  text-shadow: 2px 2px #050505;
+}
+
+#par-1 {
+  color: rgb(252, 252, 252);
+  font-size: 17px;
+  margin-left: 50px;
+  margin-right: 1000px;
+  text-shadow: 2px 2px #080808;
+}
+
+.Subscribe {
+  color: white;
+  font-size: 18px;
+  margin-right: 150px;
+  margin-left: 550px;
+  margin-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 250px;
+  text-shadow: 2px 2px #131212;
+}
+
+#name {
+  border-style: solid;
+
+}
+
+#letter {
+  margin-left: 135px;
+}
+
+#Sign-up {
+  text-align: center;
+  padding-top: 500px;
+}
+
+/*Footer start*/
+
+#contact-message {
+  color: white;
+  text-shadow: 2px 2px #131212;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.contact-links {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 10px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-phone {
+  background: #63C5DA;
+  color: white;
+}
+
+.footer {
+  float: right;
+  margin-top: 50px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding: 50px 10px 2px 3px;
+}
+
+/*Footer end*/
+
+body {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+
+
+@media all and (max-width: 1536px) {
+
+
+/*Background start*/
+
+#Background {
+  background-image: url(http://experienceidyllwild.com/UserStorage/0001641/blog-post-321.jpg);
+  padding-top: 200px;
+  background-repeat: no-repeat;
+  background-size: 2000px 1100px;
+  background-blend-mode: multiply;
+  display: flex;
+  flex-direction: column;
+}
+
+/*Background end*/
+
+/*Heading start*/
+
+#Heading {
+  text-align: center;
+}
+
+/*Heading end*/
+
+/*Nav section start*/
+/*Navbar start*/
+
+#nav-bar {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Navbar end*/
+
+/*Nav link start*/
+
+.nav-link {
+  color: rgb(5, 5, 5);
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+}
+
+/*Nav link end*/
+
+
+ul {
+  list-style-type: none;
+  padding-right: 25px;
+
+}
+
+li {
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+/*Nav section end*/
+
+/*Header start*/
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 5px;
+  background-color: rgb(25, 230, 179);
+  z-index: 10;
+}
+
+/*Header end*/
+
+#Slogan {
+  float: left;
+  color: white;
+  margin-top: 5px;
+  padding-left: 50px;
+  text-shadow: 2px 2px #050505;
+}
+
+#par-1 {
+  color: rgb(252, 252, 252);
+  font-size: 17px;
+  margin-left: 50px;
+  margin-right: 1000px;
+  text-shadow: 2px 2px #080808;
+}
+
+.Subscribe {
+  color: white;
+  font-size: 18px;
+  margin-right: 150px;
+  margin-left: 550px;
+  margin-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 250px;
+  text-shadow: 2px 2px #131212;
+}
+
+#name {
+  border-style: solid;
+
+}
+
+#letter {
+  margin-left: 135px;
+}
+
+#Sign-up {
+  text-align: center;
+  padding-top: 500px;
+}
+
+/*Footer start*/
+
+#contact-message {
+  color: white;
+  text-shadow: 2px 2px #131212;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 10px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-phone {
+  background: #63C5DA;
+  color: white;
+}
+
+.footer {
+  margin-top: 50px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding: 50px 10px 2px 3px;
+}
+
+/*Footer end*/
+
+body {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+}
