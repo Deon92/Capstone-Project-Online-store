@@ -89,6 +89,16 @@
     list-style-type: none;
     background-color: lightgray;
   }
+
+  /*Styling the Cart tab*/
+  #StoreCart {
+  float: left;
+  padding: 1px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+}
   
 /*Nav section end*/
 
@@ -732,6 +742,17 @@
   }
   
   #Contact {
+    float: left;
+    padding-left: 1px;
+    padding-right: 5px;
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    background-color: lightgray;
+  }
+
+  #StoreCart {
     float: left;
     padding-left: 1px;
     padding-right: 5px;
