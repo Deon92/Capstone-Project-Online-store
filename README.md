@@ -48,6 +48,7 @@ After you have made a choice, lets say for example you have chosen the Meat prod
 
 ### Store Cart page
 After you are satisfied with all of the products chosen, you can click on the “Cart” tab in the navigation tab. The cart tab will then be loaded, and you will be able to see all of the products which you have added to the cart. You will be able to select a delivery method and you will receive a reference number for your purchase.
+
 <kbd>
 <img class="StoreCart-1" alt="Store Cart Page" src="Images\ReadMeImages\StoreCart-1.JPG" width="600" height="400" style="border:5px solid black">
 </kbd>
