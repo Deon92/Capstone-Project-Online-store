@@ -53,3 +53,14 @@ After you are satisfied with all of the products chosen, you can click on the â€
 
 ## Support
 If you have any queries or run into any problems regarding the project, please do not hesitate to contact me at:	deonholl@ymail.com
+
+<style>
+	.StoreCart-1 {
+	border: 5px solid red;
+	}
+</style>	
+	
+	
+	
+	
+	
