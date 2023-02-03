@@ -29,6 +29,8 @@
 Once the landing page have loaded. You can access all of the products available on the site from the “Products” tab located in the navigation bar. From the same bar you can view the “About” page aswell as the “Reviews” page of the company.
 <p>
 <img class="LandingPage" alt="Landing Page" src="Images\ReadMeImages\LandingPage.JPG)" width="600" height="400" style="border:5px solid white">
+	
+	![ScreenShot](/Images\ReadMeImages\LandingPage.JPG)
 </p>
 
 ### Product page
