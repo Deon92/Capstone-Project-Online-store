@@ -34,7 +34,7 @@ Once the landing page have loaded. You can access all of the products available 
 ### Product page
 Once you have selected the “Products” tab, you will see the below page load. From here you can select whether you would like to buy Meat products, Dairy products, Vegetable products or Fruit products. If it happens that you would like to buy more than one different product, don’t fear, you will have the opportunity to choose a different type of product even after you have chosen a product type.
 
-<img class="ProductPage" alt="Product Page" src="Images\ReadMeImages\Products.JPG" width="600" height="400" style="border:5px solid white">
+<img src="Images\ReadMeImages\Products.JPG" class="ProductPage" alt="Product Page" width="600" height="400" style="border:5px solid white">
 
 
 ### Meat Product page
