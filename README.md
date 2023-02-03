@@ -27,9 +27,9 @@
 ## Here is a brief description of how you can use the site:
 ### Landing page
 Once the landing page have loaded. You can access all of the products available on the site from the “Products” tab located in the navigation bar. From the same bar you can view the “About” page aswell as the “Reviews” page of the company.
-
+<kbd>
 <img src="Images\ReadMeImages\LandingPage.JPG" class="LandingPage" alt="Landing Page" width="600" height="400" style="border:5px solid black">
-	
+</kbd>	
 
 ### Product page
 Once you have selected the “Products” tab, you will see the below page load. From here you can select whether you would like to buy Meat products, Dairy products, Vegetable products or Fruit products. If it happens that you would like to buy more than one different product, don’t fear, you will have the opportunity to choose a different type of product even after you have chosen a product type.
@@ -39,26 +39,26 @@ Once you have selected the “Products” tab, you will see the below page load.
 
 ### Meat Product page
 After you have made a choice, lets say for example you have chosen the Meat products, you can add any of the products displayed, in this case, meat products to your cart. You can do exactly the same on all the other product types.
-
+<kbd>
 <img class="MeatProductsAbout" alt="Meat Product About" src="Images\ReadMeImages\MeatProducts-1.JPG" width="600" height="400" style="border:5px solid black">
+</kbd>
+<kbd>
 <img class="MeatProducts-1" alt="Meat Product About" src="Images\ReadMeImages\MeatProducts-2.JPG" width="600" height="400" style="border:5px solid black">
-
+</kbd>
 
 ### Store Cart page
 After you are satisfied with all of the products chosen, you can click on the “Cart” tab in the navigation tab. The cart tab will then be loaded, and you will be able to see all of the products which you have added to the cart. You will be able to select a delivery method and you will receive a reference number for your purchase.
-
+<kbd>
 <img class="StoreCart-1" alt="Store Cart Page" src="Images\ReadMeImages\StoreCart-1.JPG" width="600" height="400" style="border:5px solid black">
+</kbd>
+<kbd>
 <img class="StoreCart-2" alt="Store Cart Page" src="Images\ReadMeImages\StoreCart-2.JPG" width="600" height="400" style="border:5px solid black">
-
+</kbd>
 
 ## Support
 If you have any queries or run into any problems regarding the project, please do not hesitate to contact me at:	deonholl@ymail.com
 
-<style>
-	.StoreCart-1 {
-	border: 5px solid red;
-	}
-</style>	
+	
 	
 	
 	
