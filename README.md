@@ -45,6 +45,7 @@ After you have made a choice, lets say for example you have chosen the Meat prod
 <kbd>
 <img class="MeatProductsAbout" alt="Meat Product About" src="Images\ReadMeImages\MeatProducts-1.JPG" width="600" height="400" style="border:5px solid black">
 </kbd>
+
 <kbd>
 <img class="MeatProducts-1" alt="Meat Product About" src="Images\ReadMeImages\MeatProducts-2.JPG" width="600" height="400" style="border:5px solid black">
 </kbd>
@@ -55,6 +56,7 @@ After you are satisfied with all of the products chosen, you can click on the â€
 <kbd>
 <img class="StoreCart-1" alt="Store Cart Page" src="Images\ReadMeImages\StoreCart-1.JPG" width="600" height="400" style="border:5px solid black">
 </kbd>
+
 <kbd>
 <img class="StoreCart-2" alt="Store Cart Page" src="Images\ReadMeImages\StoreCart-2.JPG" width="600" height="400" style="border:5px solid black">
 </kbd>
