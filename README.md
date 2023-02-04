@@ -27,6 +27,7 @@
 ## Here is a brief description of how you can use the site:
 ### Landing page
 Once the landing page have loaded. You can access all of the products available on the site from the “Products” tab located in the navigation bar. From the same bar you can view the “About” page aswell as the “Reviews” page of the company.
+
 <kbd>
 <img src="Images\ReadMeImages\LandingPage.JPG" class="LandingPage" alt="Landing Page" width="600" height="400" style="border:5px solid black">
 </kbd>	
@@ -39,6 +40,7 @@ Once you have selected the “Products” tab, you will see the below page load.
 
 ### Meat Product page
 After you have made a choice, lets say for example you have chosen the Meat products, you can add any of the products displayed, in this case, meat products to your cart. You can do exactly the same on all the other product types.
+
 <kbd>
 <img class="MeatProductsAbout" alt="Meat Product About" src="Images\ReadMeImages\MeatProducts-1.JPG" width="600" height="400" style="border:5px solid black">
 </kbd>
